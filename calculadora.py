@@ -31,3 +31,5 @@ while True:
 
     except ValueError:
         print("Erro: Digite apenas números.")
+
+#Aqui vamos ... teste git ...
