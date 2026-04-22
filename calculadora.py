@@ -1,6 +1,6 @@
 while True:
     try:
-        print("\n--- NOVA CONTA ---") # O \n pula uma linha para ficar organizado
+        print("\n--- NOVA CONTA TESTE ---") # O \n pula uma linha para ficar organizado
         num1 = float(input("Digite o primeiro número: "))
         operacao = input("Digite a operação (+, -, *, /, **): ")
         num2 = float(input("Digite o segundo número: "))
@@ -28,6 +28,5 @@ while True:
         if sair.lower() == "s":
             print("Até logo!")
             break # O 'break' serve para quebrar o loop e fechar o programa
-
     except ValueError:
         print("Erro: Digite apenas números.")
